@@ -1,12 +1,17 @@
 variable "resource_group_name" {
+    description = "provide the resource group name"
     type = string
-    default = ""
+    
 }
 
 variable "location" {
-    default = "" 
+    description = "provide the location"
+    type = string
+    
 }
 
 variable "data_factory_name" {
-    default = ""
+    description = "provide the data factory name"
+    type = string
+    
 }
