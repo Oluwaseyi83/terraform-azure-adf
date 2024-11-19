@@ -10,12 +10,6 @@ variable "location" {
     
 }
 
-variable "data_factory_name" {
-    description = "provide the data factory name"
-    type = string
-    
-}
-
 variable "project_name" {
     type = string
   
